@@ -1,6 +1,6 @@
 # WhatsApp API PoC
 
-Como primer paso se tiene que crear una cuenta en Twilio.
+Como primer paso se tiene que crear una cuenta en Twilio o pedir acceso al ambiente de pruebas.
 Después, ir a `https://console.twilio.com/?frameUrl=%2Fconsole%3Fx-target-region%3Dus1` y copiar
 el `Account SID` y `Auth Token` (necesarios para comunicarnos con Twilio SDK).
 
