@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'sm'
+version '0.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.sparkjava:spark-core:2.9.3'
+    implementation group: 'com.twilio.sdk', name: 'twilio', version: '8.19.2'
+    //implementation group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.14.1'
+    implementation group: "org.slf4j", name: "slf4j-api", version: "1.7.21"
+    implementation group: "org.slf4j", name: "slf4j-simple", version: "1.7.21"
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
